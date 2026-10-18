@@ -1,0 +1,10 @@
+# Cargo configuration for handl-discovery.
+#
+# `RUST_MIN_STACK`: the binding enumeration (`combos_at_sum`'s
+# recursive diagonal), the term codec, and the premise closure walk
+# are recursive descents over term/pattern trees. Deep patterns can
+# overflow libtest's default 2 MiB per-test thread stack — the same
+# wall the e-graph crate and the eval engines hit. It only affects
+# test-thread stacks; normal builds are unaffected.
+[env]
+RUST_MIN_STACK = "33554432"

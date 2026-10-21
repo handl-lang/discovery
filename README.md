@@ -106,7 +106,7 @@ let report = run_gauntlet(&mut my_domain_legs, alpha_key, &GauntletOptions::defa
 assert!(report.stages.iter().all(|s| s.passed) == report.usable);
 ```
 
-The Python arm in `research-mlopt` becomes a **thin shell**: it keeps
+The Python arm in `graphopt` becomes a **thin shell**: it keeps
 the torch corpus, the `TermCase` probe fixtures, the backend eval,
 and the law bank — and calls this crate for enumeration, premise
 closure, the rulecache round-trip, and the gate order.

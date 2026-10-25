@@ -144,3 +144,13 @@ cargo clippy --all-targets
 
 Recursive walks carry `RUST_MIN_STACK=32MiB` for test threads
 (`.cargo/config.toml`), matching the org convention.
+
+## Documentation
+
+Published site (Diátaxis): <https://handl-lang.github.io/docs/discovery/>
+
+- [Reference](https://handl-lang.github.io/docs/discovery/reference/) — public API surface
+- [How-to](https://handl-lang.github.io/docs/discovery/how-to/) — task recipes
+- [Explanation](https://handl-lang.github.io/docs/discovery/explanation/) — design and rationale
+
+Decision records live on the `project` branch under `project/adrs/`.

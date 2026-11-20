@@ -5,6 +5,11 @@ edition = "2024"
 description = "The pure-compute legs of catopt's discovery/gauntlet machinery — bounded Cantor binding enumeration, premise-anchored derivability, the stored-composite rulecache, and the trait-driven admission gauntlet — over handl-egraph."
 license = "MIT"
 repository = "https://github.com/handl-lang/discovery"
+homepage = "https://handl-lang.github.io/docs/discovery/"
+documentation = "https://handl-lang.github.io/docs/discovery/"
+readme = "README.md"
+keywords = ["e-graph", "term-rewriting", "program-synthesis"]
+categories = ["science", "compilers"]
 
 # handl deps float on `main` (git). Local development resolves them to
 # sibling checkouts via `source ~/.cache/devin/handl_deps.env` (git

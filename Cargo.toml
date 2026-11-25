@@ -2,6 +2,7 @@
 name = "handl-discovery"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
 description = "The pure-compute legs of catopt's discovery/gauntlet machinery — bounded Cantor binding enumeration, premise-anchored derivability, the stored-composite rulecache, and the trait-driven admission gauntlet — over handl-egraph."
 license = "MIT"
 repository = "https://github.com/handl-lang/discovery"

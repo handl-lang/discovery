@@ -364,14 +364,6 @@ name = "handl-plugin-codegen-cli"
 version = "0.1.0"
 
 [[patch.unused]]
-name = "compile-cuda"
-version = "0.0.1"
-
-[[patch.unused]]
-name = "compile-triton"
-version = "0.0.1"
-
-[[patch.unused]]
 name = "handl-plugin-lib-lang-parse"
 version = "0.1.0"
 
